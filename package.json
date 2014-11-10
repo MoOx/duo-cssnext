@@ -1,0 +1,44 @@
+{
+  "name": "duo-cssnext",
+  "version": "0.0.0",
+  "description": "Use tomorrow's CSS syntax, today. Via Duo.",
+  "keywords": [
+    "css",
+    "preprocessor",
+    "postprocessor",
+    "rework",
+    "postcss",
+    "autoprefixer",
+    "duo",
+    "duoplugin"
+  ],
+  "author": "Maxime Thirouin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cssnext/duo-cssnext.git"
+  },
+  "homepage": "http://cssnext.github.io",
+  "bugs": {
+    "url": "https://github.com/cssnext/duo-cssnext/issues"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "index.js"
+  ],
+  "dependencies": {
+    "cssnext": "^0.4.3"
+  },
+  "devDependencies": {
+    "duo": "^0.8.9",
+    "jscs": "^1.6.2",
+    "jshint": "^2.5.6",
+    "tape": "^3.0.0"
+  },
+  "scripts": {
+    "jscs": "jscs *.js **/*.js",
+    "jshint": "jshint . --exclude-path .gitignore",
+    "test": "npm run jscs && npm run jshint && tape test/**.js"
+  }
+}
