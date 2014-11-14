@@ -1,9 +1,10 @@
 {
   "name": "duo-cssnext",
   "version": "0.1.0",
-  "description": "Use tomorrow's CSS syntax, today. Via Duo.",
+  "description": "Use tomorrow's CSS syntax, today, using cssnext via Duo",
   "keywords": [
     "css",
+    "cssnext",
     "preprocessor",
     "postprocessor",
     "rework",
@@ -18,7 +19,7 @@
     "type": "git",
     "url": "git://github.com/cssnext/duo-cssnext.git"
   },
-  "homepage": "http://cssnext.github.io",
+  "homepage": "https://cssnext.github.io/",
   "bugs": {
     "url": "https://github.com/cssnext/duo-cssnext/issues"
   },
@@ -28,7 +29,7 @@
     "index.js"
   ],
   "dependencies": {
-    "cssnext": "^0.4.3"
+    "cssnext": "^0.5.0"
   },
   "devDependencies": {
     "duo": "^0.8.9",
