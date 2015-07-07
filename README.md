@@ -35,20 +35,11 @@ duo(root)
 
 ### Options
 
-Options are directly passed to cssnext, so checkout [cssnext options](https://github.com/cssnext/cssnext#nodejs-options) directly.
+Options are directly passed to cssnext, so checkout [cssnext options](http://cssnext.io/usage/) directly.
 
 _Note: `from` option is by default automatically specified using duo entry source._
 
 ---
-
-## Contributing
-
-Work on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.
-
-    $ git clone https://github.com/cssnext/duo-cssnext.git
-    $ git checkout -b patch-1
-    $ npm install
-    $ npm test
 
 ## [Changelog](CHANGELOG.md)
 
