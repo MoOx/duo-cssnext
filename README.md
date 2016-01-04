@@ -1,3 +1,7 @@
+# DEPRECATED. Use duo-postcss instead.
+
+---
+
 # duo-[cssnext](https://github.com/cssnext/cssnext)
 
 [![Build Status](http://img.shields.io/travis/cssnext/duo-cssnext.svg)](https://travis-ci.org/cssnext/duo-cssnext)
